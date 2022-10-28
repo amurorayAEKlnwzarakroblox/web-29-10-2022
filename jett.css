@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .first {
+    width: 100%;
+    height: 1090px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .HOME {
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    all: unset;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  button div {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+    padding: 15px;
+  }
+  
+  button div span {
+    position: absolute;
+    width: 140%;
+    height: 110%;
+    transform: translate(-100%, -20px);
+    background: #e94b4b;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+    transition: 0.4s;
+  }
+  
+  button:hover div span {
+    transform: translate(-10%, -20px);
+  }
+  
+  button div a {
+    position: relative;
+    text-decoration: none;
+    color: #0a0a0a;
+    font-family: Akshar;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .story_jett {
+    width: 563px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 119px;
+    left: 990px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+  }
+  .box {
+    width: 415px;
+    height: 44px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 376px;
+    left: 990px;
+  }
+  .ABILITIES {
+    width: 372px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 387px;
+    left: 990px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+  }
+  .ABILITIES_e {
+    width: 68px;
+    height: 60px;
+    background: url(../v6_122.jpg);
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 443px;
+    left: 990px;
+  }
+  .ABILITIES_c {
+    width: 68px;
+    height: 65px;
+    background: url(../v6_124.jpg);
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 638px;
+    left: 990px;
+  }
+  .ABILITIES_q {
+    width: 68px;
+    height: 65px;
+    background: url(../v6_126.jpg);
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 536px;
+    left: 990px;
+  }
+  .ABILITIES_x {
+    width: 66px;
+    height: 65px;
+    background: url(../v6_128.jpg);
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 740px;
+    left: 990px;
+  }
+  .q {
+    width: 353px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 549px;
+    left: 1100px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+  }
+  .e {
+    width: 500px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 453px;
+    left: 1100px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+  }
+  .c {
+    width: 502px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 645px;
+    left: 1100px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+  }
+  .x {
+    width: 494px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 747px;
+    left: 1100px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+  }
+  .jett {
+    width: 252px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 23px;
+    left: 990px;
+    font-family: Akshar;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+  }
+  .images_jett {
+    width: 318px;
+    height: 764px;
+    background: url(../v50_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    overflow: hidden;
+  }
