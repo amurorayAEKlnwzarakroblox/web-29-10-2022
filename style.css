@@ -40,27 +40,11 @@
   }
   
   button div {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
+    position: absolute;
     width: auto;
     height: auto;
-    padding: 15px 0;
+    padding: 15px 0px;
     background: #ff4655;
-  }
-  
-  button div span {
-    position: absolute;
-    width: 120%;
-    height: 110%;
-    transform: translate(-100%, -20px);
-    background: #0c2341;
-    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
-    transition: 0.4s;
-  }
-  
-  button:hover div span {
-    transform: translate(-10%, -20px);
   }
   
   button div a {
@@ -70,7 +54,6 @@
     font-family: Akshar;
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: bold;
     padding: 1px 70px;
   }
   

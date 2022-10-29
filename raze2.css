@@ -13,7 +13,7 @@
   }
 
   .HOME {
-    background: rgb(255, 255, 255);
+    background: #ff4655;
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -29,36 +29,21 @@
   }
   
   button div {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    width: 150px;
-    height: 100px;
-    padding: 15px;
-  }
-  
-  button div span {
     position: absolute;
-    width: 140%;
-    height: 110%;
-    transform: translate(-100%, -20px);
-    background: #e94b4b;
-    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
-    transition: 0.4s;
-  }
-  
-  button:hover div span {
-    transform: translate(-10%, -20px);
+    width: auto;
+    height: auto;
+    padding: 15px 0px;
+    background: #ff4655;
   }
   
   button div a {
     position: relative;
     text-decoration: none;
-    color: #0a0a0a;
+    color: #080000;
     font-family: Akshar;
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: bold;
+    padding: 1px 70px;
   }
 
   .story_raze {
